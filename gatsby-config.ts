@@ -8,13 +8,13 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `Craig McLellen`,
+    siteTitleAlt: `Craig McLellen - Portfolio`,
+    siteHeadline: `Craig McLellen`,
+    siteUrl: `https://craig.mclellen.com.au`,
+    siteDescription: `Portfolio`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `Craig McLellen`,
   },
   trailingSlash: `never`,
   plugins: [
