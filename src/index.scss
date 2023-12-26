@@ -1,1 +1,19 @@
 @import "style.scss";
+@font-face {
+    font-family: 'Carattere';
+    src: local('Carattere'), url(./fonts/Carattere/Carattere-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RubikDoodleShadow';
+    src: local('RubikDoodleShadow'), url(./fonts/Rubik_Doodle_Shadow/RubikDoodleShadow-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url(./fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: Roboto, serif;
+}

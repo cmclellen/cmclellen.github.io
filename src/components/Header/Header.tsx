@@ -1,5 +1,10 @@
 import { FC } from 'react';
 import { HeaderWrapper } from './Header.styled';
+import styled from 'styled-components';
+
+const Brand = styled.a`
+   font-family: RubikDoodleShadow, serif;
+`;
 
 interface HeaderProps { }
 
@@ -7,7 +12,7 @@ const Header: FC<HeaderProps> = () => (
    <HeaderWrapper data-testid="Header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
          <div className="container">
-            <a className="navbar-brand" href="#">Craig McLellen</a>
+            <Brand className="navbar-brand fs-1" href="#">Craig McLellen</Brand>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span className="navbar-toggler-icon"></span>
             </button>
