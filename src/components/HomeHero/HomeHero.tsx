@@ -1,9 +1,10 @@
 import { FC } from 'react';
 import { HomeHeroWrapper } from './HomeHero.styled';
 import styled from 'styled-components';
+import herobg from '../../assets/hero.jpg';
 
 const Wrapper = styled.div`
-   background: url('./src/assets/hero.jpg') no-repeat center center;
+   background: url(${herobg}) no-repeat center center;
    background-attachment: scroll;
    position: relative;
    background-size: cover;

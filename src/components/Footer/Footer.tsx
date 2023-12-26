@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { FooterWrapper } from './Footer.styled';
 import styled from 'styled-components';
 
