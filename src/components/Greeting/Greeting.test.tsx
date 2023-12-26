@@ -1,8 +1,9 @@
+import React from 'react';
 import renderer from 'react-test-renderer'
 import { describe, expect, it} from 'vitest'
-import Greeting from './index'
+import Greeting from './Greeting';
 
-describe('Greeting component', () => {
+describe('<Greeting />', () => {
   it('Greeting component renders correctly', () => {
     const component = renderer.create(
       <Greeting/>
@@ -22,4 +23,4 @@ describe('Greeting component', () => {
 
     expect(tree).toMatchSnapshot()
   })
-})
+});

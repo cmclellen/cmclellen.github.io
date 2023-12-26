@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Header /> > it should mount 1`] = `
+<div
+  className="sc-bdvuGq hka-DTH"
+  data-testid="Header"
+>
+  Header Component
+</div>
+`;
