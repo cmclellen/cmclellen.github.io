@@ -1,14 +1,13 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
+import renderer from 'react-test-renderer'
+import { describe, expect, it } from 'vitest'
 import HomeHero from './HomeHero';
 
 describe('<HomeHero />', () => {
-  test('it should mount', () => {
-    render(<HomeHero />);
+  it('it should mount', () => {
+    var component = renderer.create(<HomeHero />);
     
-    const homeHero = screen.getByTestId('HomeHero');
+    const tree = component.toJSON();
 
-    expect(homeHero).toBeInTheDocument();
+    expect(tree).toMatchSnapshot();
   });
 });

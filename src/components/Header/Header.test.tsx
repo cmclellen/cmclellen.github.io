@@ -1,4 +1,3 @@
-import React from 'react';
 import renderer from 'react-test-renderer'
 import { describe, expect, it } from 'vitest'
 import Header from './Header';

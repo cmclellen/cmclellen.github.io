@@ -1,9 +1,11 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { GreetingWrapper } from './Greeting.styled';
 
-interface GreetingProps {}
+interface GreetingProps {
+   message?: string;
+}
 
-const Greeting: FC<GreetingProps> = (props: {message?: string}) => {
+const Greeting: FC<GreetingProps> = (props: GreetingProps) => {
 
    const { message= 'World' } = props
 
