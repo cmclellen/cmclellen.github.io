@@ -26,7 +26,7 @@ const Inner = styled.div`
 `;
 
 const Title = styled.h1`
-   font-family: Carattere, serif;
+   font-family: CarterOne, serif;
 `;
 
 interface HomeHeroProps { }
@@ -39,7 +39,7 @@ const HomeHero: FC<HomeHeroProps> = () => (
          <Inner className="container py-5 inner" >
             <Title>Welcome to my site!</Title>
             <p>
-               My repo of a couple experiments
+               My repo of experiments
             </p>
          </Inner>
       </Wrapper>

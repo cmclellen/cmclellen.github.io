@@ -7,8 +7,15 @@
       "path": "src/components",
       "withStyle": true,
       "withTest": false,
-      "withStory": true,
+      "withStory": false,
       "withLazy": true
+    },
+    "page": {
+      "path": "src/pages",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": false
     }
   }
 }

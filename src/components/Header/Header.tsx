@@ -12,15 +12,16 @@ const Header: FC<HeaderProps> = () => (
    <HeaderWrapper data-testid="Header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
          <div className="container">
-            <Brand className="navbar-brand fs-1" href="#">Craig McLellen</Brand>
+            <Brand className="navbar-brand fs-1" href="/">Craig McLellen</Brand>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                <ul className="navbar-nav">
                   <li className="nav-item">
-                     <a className="nav-link active" aria-current="page" href="#">Home</a>
+                     <a className="nav-link active" aria-current="page" href="/about">About</a>
                   </li>
+                  
                   {/* <li class="nav-item">
                <a class="nav-link" href="#">Features</a>
             </li>

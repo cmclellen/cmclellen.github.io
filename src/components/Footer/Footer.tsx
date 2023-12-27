@@ -10,7 +10,7 @@ interface FooterProps {}
 
 const Footer: FC<FooterProps> = () => (
  <FooterWrapper data-testid="Footer">
-    <Inner className="fw-bold text-center py-3 text-white">&copy; 2023 Craig McLellen</Inner>
+    <Inner className="fw-bold text-center py-3 text-white">&copy; 2023 <a href="mailto:cmclellen at gmail.com">Craig McLellen</a></Inner>
  </FooterWrapper>
 );
 
