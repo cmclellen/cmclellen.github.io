@@ -1,7 +1,6 @@
 import { FC } from 'react';
 import { FooterWrapper } from './Footer.styled';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
