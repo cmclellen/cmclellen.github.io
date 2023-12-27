@@ -37,7 +37,7 @@ const HomeHero: FC<HomeHeroProps> = () => (
       <Wrapper className="container-fluid">
          <Overlay className="overlay"></Overlay>
          <Inner className="container py-5 inner" >
-            <Title>Welcome to my site!</Title>
+            <Title className="text-muted">Welcome to my site!</Title>
             <p>
                My repo of experiments
             </p>

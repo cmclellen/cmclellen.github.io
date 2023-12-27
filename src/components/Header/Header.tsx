@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { HeaderWrapper } from './Header.styled';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Brand = styled.a`
    font-family: RubikDoodleShadow, serif;
@@ -19,7 +20,7 @@ const Header: FC<HeaderProps> = () => (
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                <ul className="navbar-nav">
                   <li className="nav-item">
-                     <a className="nav-link active" aria-current="page" href="/about">About</a>
+                     <Link className="nav-link active" aria-current="page" to="/about">About</Link>
                   </li>
                   
                   {/* <li class="nav-item">
