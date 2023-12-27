@@ -12,7 +12,7 @@ interface FooterProps {}
 
 const Footer: FC<FooterProps> = () => (
  <FooterWrapper data-testid="Footer">
-    <Inner className="text-center py-3 text-white">&copy; 2023 <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> <span className="fst-italic">cmclellen<FontAwesomeIcon icon={faAt}></FontAwesomeIcon>gmail.com</span></Inner>
+    <Inner className="text-center py-3 text-white">&copy; 2023 <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> <span className="fst-italic">cmclellen<FontAwesomeIcon className="px-1" size="sm" icon={faAt}></FontAwesomeIcon>gmail.com</span></Inner>
  </FooterWrapper>
 );
 
