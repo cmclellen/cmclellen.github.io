@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Greeting /> > Greeting component renders correctly 1`] = `
+<div
+  className="sc-bdvuGq hka-DTH"
+  data-testid="Greeting"
+>
+  <div>
+    Hello, 
+    World
+    !
+  </div>
+</div>
+`;
+
+exports[`<Greeting /> > prop working 1`] = `
+<div
+  className="sc-bdvuGq hka-DTH"
+  data-testid="Greeting"
+>
+  <div>
+    Hello, 
+    Universe
+    !
+  </div>
+</div>
+`;
