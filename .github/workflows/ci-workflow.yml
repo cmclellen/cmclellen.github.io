@@ -6,6 +6,9 @@ on:
       - main
       - AddWorkflow
 
+env:
+  ACTIONS_RUNNER_DEBUG: true
+
 jobs:
   build-test-deploy:
     runs-on: ubuntu-latest
