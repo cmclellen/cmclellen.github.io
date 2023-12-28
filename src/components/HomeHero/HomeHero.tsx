@@ -39,7 +39,7 @@ const HomeHero: FC<HomeHeroProps> = () => (
          <Inner className="container py-5 inner" >
             <Title className="text-muted">Welcome to my site!</Title>
             <p>
-               My repo of experiments
+               My repo of experiments 1
             </p>
          </Inner>
       </Wrapper>
