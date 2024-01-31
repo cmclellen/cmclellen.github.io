@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { ExperimentsWrapper } from './Experiments.styled';
 import reservationimg from '../../assets/reservation.jpg';
+import auditoriumimg from '../../assets/auditorium.jpg';
 
 interface ExperimentsProps { }
 
@@ -20,32 +21,18 @@ const Experiments: FC<ExperimentsProps> = () => (
                   </div>
                </div>
             </div>
-            {/* <div className="col">
-            <div className="card">
+            <div className="col">
+               <div className="card">
+                  <img src={auditoriumimg} />
                   <div className="card-body">
-                     <h5 className="card-title">Card title</h5>
-                     <p className="card-text">This card has supporting text below as a natural lead-in to additional content.
-                     
-                     
-                     </p>
+                     <h5 className="card-title">RAG (AI) using Famous Speeches</h5>
+                     <p className="card-text">Using RAG to search within a dataset of famous speeches.</p>
                   </div>
                   <div className="card-footer">
-                     <small className="text-muted">Last updated 3 mins ago</small>
+                     <a href="/FamousSpeeches/">Read more</a>
                   </div>
+               </div>
             </div>
-         </div>
-         <div className="col">
-            <div className="card">
-                  <div className="card-body">
-                     <h5 className="card-title">Card title</h5>
-                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                  <div className="card-footer">
-                     <small className="text-muted">Last updated 3 mins ago</small>
-                  </div>
-            </div>
-         </div>
-          */}
          </div>
       </div>
    </ExperimentsWrapper>
