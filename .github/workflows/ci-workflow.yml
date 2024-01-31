@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - AddFamousSpeeches
 
 env:
   ACTIONS_RUNNER_DEBUG: true
