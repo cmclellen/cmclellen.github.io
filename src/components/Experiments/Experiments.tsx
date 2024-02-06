@@ -45,7 +45,7 @@ const Experiments: FC<ExperimentsProps> = () => (
                      <p className="card-text">Using Azure AI Search & Document Intelligence to identify documents containing PII information.</p>
                   </div>
                   <div className="card-footer">
-                     <a href="/PiiDocDetect/">Read more</a>
+                     <a href="https://github.com/cmclellen/PiiDocDetect">Read more</a>
                   </div>
                </div>
             </div>
