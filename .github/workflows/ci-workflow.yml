@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - feature/AddPii
 
 env:
   ACTIONS_RUNNER_DEBUG: true
