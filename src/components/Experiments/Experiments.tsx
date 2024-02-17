@@ -3,6 +3,7 @@ import { ExperimentsWrapper } from './Experiments.styled';
 import reservationimg from '../../assets/reservation.jpg';
 import auditoriumimg from '../../assets/auditorium.jpg';
 import magnifyimg from '../../assets/magnify.jpg';
+import secureimg from '../../assets/secure.jpg';
 
 interface ExperimentsProps { }
 
@@ -46,6 +47,19 @@ const Experiments: FC<ExperimentsProps> = () => (
                   </div>
                   <div className="card-footer">
                      <a href="https://github.com/cmclellen/PiiDocDetect">Read more</a>
+                  </div>
+               </div>
+            </div>
+
+            <div className="col">
+               <div className="card">
+                  <img src={secureimg} />
+                  <div className="card-body">
+                     <h5 className="card-title">Azure Private Endpoint</h5>
+                     <p className="card-text">A bit of a deeper look into Azure Private Endpoints.</p>
+                  </div>
+                  <div className="card-footer">
+                     <a href="https://github.com/cmclellen/AzurePrivateEndpointInDetail">Read more</a>
                   </div>
                </div>
             </div>
