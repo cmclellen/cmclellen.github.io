@@ -4,6 +4,5 @@
 * Run `bundle exec jekyll serve`
 
 ## TODO:
-1. Setup bootstrap
-1. Style side for 3 columns
+1. Deploy
 1. Add umbraco experience page
