@@ -20,6 +20,9 @@
 
 title: Craig McLellen
 email: cmclellen@gmail.com
+author:
+  name: Craig McLellen
+  email: cmclellen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   "The worst enemy to creativity is self-doubt." - Sylvia Plath
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -29,9 +32,10 @@ linkedin_username: cmclellen
 timezone: Australia/Perth
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jonaharagon/jekyll-bootstrap-theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 sass:
   sass_dir: _sass
   style: compressed
