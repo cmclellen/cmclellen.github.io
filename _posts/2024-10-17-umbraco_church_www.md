@@ -23,7 +23,7 @@ Have a browse around the site <a href="https://stbrigidsmidland.com.au/" target=
 1. Cost is a constraint, as the site wasn't core to operations and so needed to be hosted as cheaply as possible.
 
 ### High-Level Design
-<img src="../../../../../assets/images/umbraco_church_diagram.png" />
+<img class="img-fluid" src="../../../../../assets/images/umbraco_church_diagram.png" />
 
 ### The journey
 Having not worked with Umbraco before, my initial plan was to just get a barebones version of an Umbraco site up and running and deployed as a webapp in Azure. 
