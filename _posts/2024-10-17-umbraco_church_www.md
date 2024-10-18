@@ -23,7 +23,9 @@ Have a browse around the site <a href="https://stbrigidsmidland.com.au/" target=
 1. Cost is a constraint, as the site wasn't core and so needed to be hosted as cheaply as possible.
 
 ### High-Level Design
-<img class="img-fluid" src="../../../../../assets/images/umbraco_church_diagram.png" />
+<div class="border rounded-2 p-2">
+    <img class="img-fluid" src="../../../../../assets/images/umbraco_church_diagram.png" />
+</div>
 
 ### The Journey
 ###### The foundation
