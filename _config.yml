@@ -23,8 +23,10 @@ email: cmclellen@gmail.com
 author:
   name: Craig McLellen
   email: cmclellen@gmail.com
+tagline: Some of my techie related notes, ramblings, experiments, etc.
 description: >- # this means to ignore newlines until "baseurl:"
-  "The worst enemy to creativity is self-doubt." - Sylvia Plath
+  Some of my techie related notes, ramblings, experiments, etc.
+locale: en_AU
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://cmclellen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  cmclellen
