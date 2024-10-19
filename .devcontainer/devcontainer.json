@@ -1,0 +1,8 @@
+{
+	"name": "Jekyll Dev Container",
+	"build": {
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
+	"postStartCommand": "chmod +x ./.devcontainer/postCreateCommand.sh && ./.devcontainer/postCreateCommand.sh"
+}
