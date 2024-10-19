@@ -7,6 +7,5 @@
 1. Building the image `docker build --progress=plain --no-cache -t cm-ghpages .devcontainer\.`
 1. Running it `docker run -it cm-ghpages /bin/sh`
 
-
 ## TODO:
 1. Add umbraco experience page
