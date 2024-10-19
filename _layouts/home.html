@@ -34,6 +34,12 @@ layout: default
           <p class="card-text">{{ post.subtitle | escape }}</p>
         </div>
       </div>
+      <div class="card-footer text-body-secondary">
+        {% for cat in post.categories %}
+          <span class="badge rounded-pill text-bg-light">{{ cat }}</span></li>
+        {% endfor %}
+      </div>
+      
     </div>
 
     {%- endfor -%}

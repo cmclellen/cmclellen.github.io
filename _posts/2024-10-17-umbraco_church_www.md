@@ -4,7 +4,7 @@ title:  "Azure hosted Umbraco website"
 subtitle: Developing an Azure hosted Umbraco CMS website for the church I attend.
 date:   2024-10-17 05:00:44 +0800
 image: umbracochurch.jpg
-categories: jekyll update
+categories: Azure Web Umbraco
 ---
 ### Background
 The church I regularly attend recently asked the parish community for assistance in creating a new website. Their previous site was difficult to update and lacked flexibility. Given my background, I offered to help them with creating a website that would serve their needs and allow them to self-serve and update the content themselves.
