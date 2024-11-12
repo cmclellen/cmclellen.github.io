@@ -47,7 +47,7 @@ workItems:
           It’s a React SPA web application that interacts with a backend API developed using an Azure Function app. Requests are routed via Azure Front Door & WAF to the web server hosting the SPA, the Storage Account hosting the assets and the Azure Function backend. All resources deployed as IaC (Bicep) via Azure DevOps pipelines to DEV and gated PROD environments. All traffic remains on the private network after being received from Front Door, i.e. Private Endpoints are used to PaaS services and all public network access disabled. RBAC & Managed Identities are used to secure access to the various services used (Storage Account, KeyVault).
 
       - name: Adica
-        type: Migration of BI workloads to Azure
+        type: Migration of SQL Server BI workloads to Azure
         description: |
           Team lead on this project and helped the solution architect also assigned to the project with ~90% of the design. I mostly helped with deciding and coordinating what tasks needed to be worked on to see the solution through to production, while also catering for a switch over scenario where the legacy and new systems had to run in parallel for a period of time.
           <br><br>
