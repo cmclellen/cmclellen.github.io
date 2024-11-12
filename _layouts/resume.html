@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="container my-2 resume">
+  <div class="row">
+    <div>
+      <h3>Professional Summary</h3>
+      {{ page.summary }}
+    </div>
+  </div>
+  <div class="row">
+    <div>
+      <h3>Certifications</h3>
+      <ol class="list-group list-group-flush list-group-numbered"></ul>
+      {%- for qualification in page.qualifications -%}      
+        <li class="list-group-item">{{ qualification.name }}{%- if qualification.year -%}&nbsp;({{qualification.year}}){%- endif -%}</li>
+      {% endfor %}
+      </ol>
+  </div>
+  </div>
+  
+
+
+</article>
