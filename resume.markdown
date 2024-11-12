@@ -131,17 +131,17 @@ qualifications:
   - name: TOGAF 10 Foundation
     year: 2024-Present
     category: Architecture
+  - name: Azure Solutions Architect Expert
+    year: 2022-Present
+    category: Azure
+  - name: Cybersecurity Architect Expert
+    year: 2023-Present
+    category: Azure
   - name: Azure Cosmos DB Developer Specialty
     year: 2024-Present
     category: Azure
   - name: Azure AI Engineer Associate
     year: 2023-Present
-    category: Azure
-  - name: Cybersecurity Architect Expert
-    year: 2023-Present
-    category: Azure
-  - name: Azure Solutions Architect Expert
-    year: 2022-Present
     category: Azure
   - name: Azure Security Engineer Associate
     year: 2023-Present
