@@ -11,11 +11,15 @@ layout: default
   <div class="row">
     <div>
       <h3>Certifications</h3>
-      <ol class="list-group list-group-flush list-group-numbered"></ul>
-      {%- for qualification in page.qualifications -%}      
-        <li class="list-group-item">{{ qualification.name }}{%- if qualification.year -%}&nbsp;({{qualification.year}}){%- endif -%}</li>
-      {% endfor %}
-      </ol>
+      {% assign categories = page.qualifications | group_by:"category" | sort:"name" | reverse  %}
+      {%- for category in categories -%}
+        <div class="d-inline-flex"><h5>{{ category.name }}</h5><div class="ms-2"><span class="badge rounded-pill text-bg-light">{{ category.size }}</span></div></div>
+        <ol class="list-group list-group-flush"></ul>
+          {%- for qualification in category.items -%}
+          <li class="list-group-item">{{ qualification.name }}{%- if qualification.year -%}&nbsp;({{qualification.year}}){%- endif -%}</li>
+          {% endfor %}
+        </ol>
+      {% endfor %}      
   </div>
   </div>
   
