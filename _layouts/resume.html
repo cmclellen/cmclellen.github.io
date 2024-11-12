@@ -2,15 +2,22 @@
 layout: default
 ---
 <article class="container my-2 resume">
-  
   <div class="row">
+    <div class="d-lg-inline-flex justify-content-center">
+      {%- for notable_point in page.notable_points -%}
+        <div>{{ notable_point }}</div><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
+      {% endfor %}    
+    </div>
+  </div>
+
+  <div class="row mb-2">
     <div>
       <h3 class="text-primary">Professional Summary</h3>
       {{ page.summary }}
     </div>
   </div>
 
-  <div class="row">
+  <div class="row mb-2">
     <div>
       <h3 class="text-primary">Certifications</h3>
       {% assign categories = page.qualifications | group_by:"category" | sort:"name" | reverse  %}
@@ -21,11 +28,24 @@ layout: default
           <li class="list-group-item">{{ qualification.name }}{%- if qualification.year -%}&nbsp;({{qualification.year}}){%- endif -%}</li>
           {% endfor %}
         </ol>
-      {% endfor %}      
+      {% endfor %}
     </div>
   </div>
 
-  <div class="row">
+  <div class="row mb-2">
+    <div>
+      <h3 class="text-primary">Links</h3>
+      {%- for link in page.links -%}
+        <div>
+          <div class="d-lg-inline-flex">
+            <a href="{{ link.url }}">{{ link.url }}</a> <div class="ms-lg-2 fs-6 fst-italic">{{ link.description }}</div>
+          </div>
+        </div>
+      {% endfor %}    
+    </div>
+  </div>
+
+  <div class="row mb-2">
     <div>
       <h3 class="text-primary">Work Experience</h3>
       {%- for workItem in page.workItems -%}
@@ -46,9 +66,5 @@ layout: default
 
     </div>
   </div>
-
-
-  
-
 
 </article>
