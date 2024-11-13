@@ -2,64 +2,84 @@
 layout: default
 ---
 <article class="container my-2 resume">
-  <div class="row">
-    <div class="d-lg-inline-flex justify-content-center">
-      {%- for notable_point in page.notable_points -%}
-        <div>{{ notable_point }}</div><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
-      {% endfor %}
+  <div class="row gy-2">
+    <div>
+      <div class="text-primary fs-4 text-lg-center fw-bold">{{page.full_name}}</div>
+      <div class="text-lg-center text-primary fw-bold">{{page.current_role}}</div>
+      <div class="d-lg-flex justify-content-lg-center">
+        {%- for notable_point in page.notable_points -%}
+          <div>{{ notable_point }}</div><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
+        {% endfor %}
+      </div>
+      <div class="d-lg-flex justify-content-lg-center">
+        {%- for link in page.links -%}
+        <a href="{{ link.url }}" target="_blank">{{ link.text }}</a><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
+        {% endfor %}
+      </div>
     </div>
-    <div class="d-lg-inline-flex justify-content-center">
-      {%- for link in page.links -%}
-      <a href="{{ link.url }}" target="_blank">{{ link.text }}</a><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
-      {% endfor %}
-    </div>
-  </div>
 
-  <div class="row mb-2">
     <div>
       <h3 class="text-primary">Professional Summary</h3>
       {{ page.summary }}
     </div>
-  </div>
 
-  <div class="row mb-2">
     <div>
-      <h3 class="text-primary">Certifications</h3>
-      {% assign categories = page.qualifications | group_by:"category" | sort:"name" | reverse  %}
-      {%- for category in categories -%}
-        <div class="d-inline-flex"><h5 class="text-secondary">{{ category.name }}</h5><div class="ms-2"><span class="badge rounded-pill text-bg-light">{{ category.size }}</span></div></div>
-        <ol class="list-group list-group-flush"></ul>
-          {%- for qualification in category.items -%}
-          <li class="list-group-item">{{ qualification.name }}{%- if qualification.year -%}&nbsp;({{qualification.year}}){%- endif -%}</li>
-          {% endfor %}
-        </ol>
-      {% endfor %}
-    </div>
-  </div>
-
-  <div class="row mb-2">
-    <div>
-      <h3 class="text-primary">Work Experience</h3>
-      <ul class="list-group list-group-flush">
+      <h3 class="text-primary">Experience</h3>
+      <ol class="list-group list-group-flush">
       {%- for workItem in page.workItems -%}
         <li class="list-group-item">
-          <div class="d-lg-inline-flex align-items-baseline"><h4 class="text-secondary m-0">{{workItem.company}}</h4><div class="ms-lg-2 fs-6 fst-italic">{{workItem.company_description}}</div></div>
-          <div class="fs-6 fst-italic">{{workItem.duration}}</div>
-          <h5 class="font-monospace m-0">{{workItem.role}}</h5>
+          <div class="d-lg-flex">
+            <div class="flex-grow-1 d-lg-flex">
+              <div class="text-primary fw-bold">{{workItem.company}}</div>
+              <div class="ms-lg-2 fs-6 font-monospace">{{workItem.company_description}}</div>
+            </div>
+            <div class="font-monospace">{{workItem.duration}}</div>
+          </div>          
+          <div class="fs-6 text-secondary fw-bolder">{{workItem.role}}</div>
           <ul class="list-group list-group-flush">
           {%- for project in workItem.projects -%}
-            <li class="list-group-item">
+            <li class="list-group-item p-0 m-0">
               {%- if project.name -%}
               <div class="d-lg-inline-flex align-items-baseline"><h6 class="text-secondary m-0 text-decoration-underline">{{project.name}}</h6><div class="ms-lg-1 fs-6 fst-italic">{{project.type}}</div></div>
               {%- endif -%}
-              <p class="m-0">{{project.description}}</p>
+              <ul>
+                {%- for characteristic in project.characteristics -%}
+                <li>{{characteristic}}</li>
+                {%- endfor -%}
+              </ul>
             </li>
           {% endfor %}
           </ul>
         </li>
       {% endfor %}
-      </ul>
+      </ol>
     </div>
+
+    <div>
+      <h3 class="text-primary">Certifications</h3>
+      {% assign categories = page.qualifications | group_by:"category" | sort:"name" | reverse  %}
+      {%- for category in categories -%}
+        <div class="d-inline-flex"><h5 class="text-secondary">{{ category.name }}</h5><div class="ms-2"><span class="badge rounded-pill text-bg-light">{{ category.size }}</span></div></div>
+        <ul>
+          {%- for qualification in category.items -%}
+          <li>{{ qualification.name }}{%- if qualification.year -%}&nbsp;({{qualification.year}}){%- endif -%}</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+
+    <div>
+      <h3 class="text-primary">Skills</h3>
+      {%- for skill in page.skills -%}
+        <div>
+          <span class="text-secondary fw-bold me-1">{{ skill.name }}:</span>
+          {%- for item in skill.items -%}
+          {{ item }}{%- if forloop.last == false -%}&nbsp;&bullet;&nbsp;{%- endif -%}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+
   </div>
 
 </article>
