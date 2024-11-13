@@ -9,12 +9,10 @@ notable_points:
   - <a href="mailto:cmclellen@gmail.com">cmclellen@gmail.com</a>
 
 links:
-  - url: https://cmclellen.github.io/
-    description: A bit of a portfolio
-  - url: https://au.linkedin.com/in/cmclellen
-    description: My LinkedIn profile
-  - url: https://www.stbrigidsmidland.com.au/
-    description: An Umbraco CMS website I developed for the church I attend
+  - url: https://au.linkedin.com/in/cmclellen    
+    text: au.linkedin.com/in/cmclellen    
+  - url: https://cmclellen.github.io
+    text: cmclellen.github.io
 
 summary: |
     A passionate polyglot full-stack developer and Solution Architect with over 25 years of development experience, specializing in scalable, high-performant cloud solutions across diverse industries. I've led the architecture and development of numerous cloud-based projects, notably an Azure integration project for an Australian government organization that had to handle vast volumes of streaming data, which needed to be accurately ingested and reported on, with life-critical implications. This involved meeting demanding throughput requirements, while ensuring all functional and remaining non-functional requirements are met.<br><br>
