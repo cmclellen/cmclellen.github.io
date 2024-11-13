@@ -19,10 +19,12 @@ skills:
       - SQL MI and Azure Database
       - Front Door & WAF
       - Functions
+      - Logic Apps
       - Entra ID (App Registrations, Managed Identity, Client Credential Flow, Authorization Code Flow with PKCE, etc.)
       - KeyVault
       - Service Bus
       - Event Hub
+      - Cosmos DB
       - Data Explorer
       - Data Factory
       - Storage Account (Blob, Files, Table & Queues)
@@ -30,7 +32,7 @@ skills:
   - name: DevOps
     items:
       - GitHub Actions
-      - Azure DevOps    
+      - Azure DevOps
       - Terraform
       - Bicep
   - name: Software Practices
@@ -67,13 +69,13 @@ notable_points:
   - <a href="mailto:cmclellen@gmail.com">cmclellen@gmail.com</a>
 
 links:
-  - url: https://au.linkedin.com/in/cmclellen 
-    text: au.linkedin.com/in/cmclellen    
+  - url: https://au.linkedin.com/in/cmclellen
+    text: au.linkedin.com/in/cmclellen
   - url: https://cmclellen.github.io
     text: cmclellen.github.io
 
 summary: |
-    Passionate full-stack Software Engineer and Solution Architect with 25+ years of experience developing scalable, secure, and user-focused applications. Skilled in Agile methodologies, cloud computing, microservice & event-driven architectures, DevOps and writing SOLID code while following TDD.
+    Passionate full-stack Software Engineer and Solution Architect with 25+ years of experience, leading the design and development of scalable, secure, and user-focused applications. Skilled in Agile methodologies, cloud computing, microservice & event-driven architectures, DevOps and writing SOLID TDD code, while often mentoring and guiding more junior developers.
 
 workItems:
   - company: Insight
@@ -85,18 +87,31 @@ workItems:
         type: Azure Integration
         characteristics:
         - Led and mentored the development team in successfully delivering an Azure Integration Services (AIS) solution to Azure.
-        - Drove the adoption of TDD on the project and reported on the code coverage in the CI build.
-        - Built out the CI/CD pipelines using GitHub Action and configured approval gates for the various environments.
-        - Defined the branching strategy along with stting up the various quality gates, etc.
-        - Guided the team in following DDD (Domain-Driven Design) and implementing the event-driven architected system.
-        - Helped the team develop an Angular SPA that fronted the APIs deployed as part of the solution.
-        - Developed the IaC Bicep scripts that provisioned the resources in Azure        
-    
+        - Drove the adoption of TDD and visualised code coverage stats via the CI build dashboard.
+        - Built out CI/CD pipelines using GitHub Action, and configuring the security thereof with environment appropriate approval gates.
+        - Defined the branching strategy and configured the branch related quality gates.
+        - Guided the team with DDD (Domain-Driven Design) and the event-driven architecture that was implemented.
+        - Helped develop an Angular SPA that fronted the APIs deployed as part of the solution.
+        - Developed the IaC Bicep scripts that provisioned the various required resources into Azure.
+
   - company: Eighty20 Solutions
     company_description: Azure Cloud - Consultancy
     duration: May 2022 - March 2024
     role: Senior Consultant
     projects:
+      - name: DEFS (Department of Fire and Emergency Services)
+        type: Tracking GPS coordinates of personal & vehicles
+        characteristics:
+        - Setup and configured Azure API Management, and built out Azure DevOps CI/CD pipelines to deploy APIs to it using APIOps.
+        - Built Function Apps and Data Factory pipelines to process high volumes of GPS coordinate data streaming in via Azure Event Hub.
+        - Due to the accuracy of the data being life-critical, quality was imperative, so code-coverage and quality tests were a non-negotiable.
+
+      - name: Department of Defence
+        type: Migration of on-premises applications to Azure
+        characteristics:
+        - Built out the Azure DevOps pipeline to provision, via IaC (Bicep), the platform and application landing zones to their various Azure subscriptions for their various environments.
+        - Solved issues with legacy applications having to use Azure AD as an IdP (Identity Provider).
+
       - name: Allied Credit
         type: Customer Web Portal
         characteristics:
@@ -105,7 +120,7 @@ workItems:
         - Built out the Azure DevOps CI/CD pipelines to build, test and deploy to the various environments.
         - Delivered bi-weekly presentations to the customer, highlighting the progress of the app.
         - Remediated issues identified during the PEN testing excercise.
-        - Developed the IaC scripts to provision resources to Azure, including the provisioning and configuration of Azure Front Door and WAF.
+        - Developed the IaC scripts to provision resources to Azure, including the provisioning and configuration of Azure Front Door and WAF (Web Application Firewall).
 
       - name: Adica
         type: Migration of SQL Server BI workloads to Azure
@@ -192,14 +207,14 @@ workItems:
         characteristics:
         - Build Master, creating and maintaining builds, ensuring latest code base is compiled, packaged, and deployed frequently for testing purposes, ensuring the quality of software being developed is of the highest standard,
 
-  - company: Prior work experience
+  - company: Earlier experience
     company_description: Omitted for brevity
     duration: Jan 2000 - Mar 2008
     role: Developer
     projects:
       - characteristics:
-        - Working as a mid/senior level developer on mostly C#.NET applications across a variety of technologies & frameworks like WWF (Windows Workflow Foundation) WPF (Windows Presentation Foundation), WCF (Windows Communication Foundation), Silverlight, Windows forms, ASP.NET MVC.
-        - Application development of a few Java applications.
+        - Working as a mid/senior level developer on mostly C#.NET applications across a variety of technologies & frameworks like WWF (Windows Workflow Foundation) WPF (Windows Presentation Foundation), WCF (Windows Communication Foundation), Silverlight, Windows forms, ASP.NET MVC, etc.
+        - Developed a few Java applications.
 
 qualifications:
   - name: GitHub Copilot
@@ -233,7 +248,7 @@ qualifications:
     year: 2018-2023
     category: AWS
   - name: AWS Solution Architect Associate
-    year: 2017-2020 
+    year: 2017-2020
     category: AWS
   - name: AWS Developer Associate
     year: 2018-2020
@@ -241,7 +256,7 @@ qualifications:
   - name: IASA Global Certified IT Architect - Foundation
     year: 2015
     category: Architecture
-  - name: <small><i>&bullet; Older Microsoft certifications omitted for brevity</i></small>
+  - name: <small><i>Older Microsoft certifications omitted for brevity</i></small>
     category: Software Development
 
 ---
