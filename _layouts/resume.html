@@ -12,6 +12,11 @@ layout: default
         {% endfor %}
       </div>
       <div class="d-lg-flex justify-content-lg-center">
+        {%- for notable_point in page.other_notable_points -%}
+          <div>{{ notable_point }}</div><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
+        {% endfor %}
+      </div>
+      <div class="d-lg-flex justify-content-lg-center">
         {%- for link in page.links -%}
         <a href="{{ link.url }}" target="_blank">{{ link.text }}</a><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
         {% endfor %}
