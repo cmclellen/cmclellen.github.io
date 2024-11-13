@@ -7,11 +7,13 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  <div class="text-center">
+    {{ content }}
+  </div>
 
 
   {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <h2 class="post-list-heading text-primary">{{ page.list_title | default: "Posts" }}</h2>
 
   <div class="row row-cols-1 row-cols-lg-3 g-4 mb-3">
 
@@ -33,10 +35,11 @@ layout: default
           <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: date_format }}</h6>
           <p class="card-text">{{ post.subtitle | escape }}</p>
         </div>
+
       </div>
       <div class="card-footer text-body-secondary">
         {% for cat in post.categories %}
-          <span class="badge rounded-pill text-bg-light">{{ cat }}</span></li>
+          <span class="badge rounded-pill text-bg-light text-primary">{{ cat }}</span></li>
         {% endfor %}
       </div>
       

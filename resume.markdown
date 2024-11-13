@@ -86,7 +86,7 @@ workItems:
         - Defined the branching strategy that was followed and configured branch related quality gates.
         - Guided the team with DDD (Domain-Driven Design) and the event-driven architecture that was implemented.
         - Helped develop an Angular SPA that fronted the APIs deployed as part of the solution.
-        - Documented the architecture using C4 models and deployment diagrams.
+        - Documented the architecture incorporating various diagrams created with tools like Structurizr (C4) and PlantUML/drawio (deployment, sequence, etc.).
 
   - company: Eighty20 Solutions
     company_description: Azure Cloud - Consultancy

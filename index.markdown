@@ -6,7 +6,5 @@ layout: home
 
 ---
 
-<div class="py-3 mb-0 fw-normal fs-4">
-    <div>Welcome to my site!</div>    
-    <div class="fs-6">Some of my techie related notes, ramblings, experiments, etc.</div>
-</div>
+<div class="display-2 text-primary">Welcome!</div>    
+<div class="fs-6 text-body-secondary">Some of my techie related notes, ramblings, experiments, etc.</div>

@@ -6,6 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 $primary: #45818e;
+$navbar-light-brand-color: $primary;
+$navbar-light-brand-hover-color: #004c4c;
+$navbar-light-color: $primary;
+$navbar-light-hover-color: #004c4c;
+$navbar-light-active-color: #689695;
 
 @import "../_sass/bootstrap/_functions.scss";
 @import "../_sass/bootstrap/_variables.scss";
