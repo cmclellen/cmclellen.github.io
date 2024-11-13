@@ -77,7 +77,7 @@ summary: |
 workItems:
   - company: Insight
     company_description: Cloud Apps and Integrations - Consultancy
-    duration: March 2024 - Present
+    duration: Mar 2024 - Present
     role: Architect
     projects:
       - name: ICWA
