@@ -16,19 +16,17 @@ skills:
   - name: Azure
     items:
       - APIM
-      - SQL MI and Azure Database
+      - SQL MI, Database, Cosmos DB
       - Front Door & WAF
-      - Functions
-      - Logic Apps
-      - Entra ID (App Registrations, Managed Identity, Client Credential Flow, Authorization Code Flow with PKCE, etc.)
+      - Functions, Logic Apps
+      - Entra ID (App Registrations, Managed Identity, IODC, Client Credential Flow, Authorization Code Flow with PKCE, etc.)
       - KeyVault
       - Service Bus
       - Event Hub
-      - Cosmos DB
       - Data Explorer
       - Data Factory
-      - Storage Account (Blob, Files, Table & Queues)
-      - Networking (VNets, Subnets, Service/Private Endpoints, Private DNS Zones, etc.)
+      - Storage Blobs, Files, Tables & Queues
+      - VNets, Subnets, Service/Private Endpoints, Private DNS Zones, etc.
   - name: DevOps
     items:
       - GitHub Actions
@@ -47,16 +45,12 @@ skills:
   - name: Frameworks
     items:
       - EntityFramework
+      - OpenTelemetry
+      - OpenAPI
       - Serilog
-      - Azure SDK
-      - AWS SDK
+      - Azure & AWS SDKs
       - FluentValidations
-      - FluentAssertions
-      - MSTest, NUnit
-      - Moq
-      - Verify
-      - Bogus
-      - Autofixture
+      - MSTest, NUnit, Moq, Verify, Bogus, Autofixture, FluentAssertions
   - name: Web Development
     items:
       - Angular
@@ -89,14 +83,14 @@ workItems:
         - Led and mentored the development team in successfully delivering an Azure Integration Services (AIS) solution to Azure.
         - Drove the adoption of TDD and visualised code coverage stats via the CI build dashboard.
         - Built out CI/CD pipelines using GitHub Action, and configuring the security thereof with environment appropriate approval gates.
-        - Defined the branching strategy and configured the branch related quality gates.
+        - Defined the branching strategy that was followed and configured branch related quality gates.
         - Guided the team with DDD (Domain-Driven Design) and the event-driven architecture that was implemented.
         - Helped develop an Angular SPA that fronted the APIs deployed as part of the solution.
-        - Developed the IaC Bicep scripts that provisioned the various required resources into Azure.
+        - Documented the architecture using C4 models and deployment diagrams.
 
   - company: Eighty20 Solutions
     company_description: Azure Cloud - Consultancy
-    duration: May 2022 - March 2024
+    duration: May 2022 - Mar 2024
     role: Senior Consultant
     projects:
       - name: DEFS (Department of Fire and Emergency Services)
@@ -115,12 +109,11 @@ workItems:
       - name: Allied Credit
         type: Customer Web Portal
         characteristics:
-        - Helped develop a Customer portal that was build as a React SPA fronting an API.
-        - Drove the implementation in alignment with the key pillars of the Azure Well-Architected Framework.
-        - Built out the Azure DevOps CI/CD pipelines to build, test and deploy to the various environments.
-        - Delivered bi-weekly presentations to the customer, highlighting the progress of the app.
+        - Helped develop a Customer portal built using React fronting an Azure Function hosted API.
+        - Drove the alignment with the key pillars of the Azure (WAF) Well-Architected Framework.
+        - Delivered bi-weekly presentations to the customer, showcasing the latest features that had been implemented and in so doing, communicated tangible progress.
         - Remediated issues identified during the PEN testing excercise.
-        - Developed the IaC scripts to provision resources to Azure, including the provisioning and configuration of Azure Front Door and WAF (Web Application Firewall).
+        - Developed the IaC scripts to provision resources to Azure, including provisioning and configuration of Azure Front Door and WAF (Web Application Firewall).
 
       - name: Adica
         type: Migration of SQL Server BI workloads to Azure
