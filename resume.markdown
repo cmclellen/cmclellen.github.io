@@ -62,6 +62,9 @@ notable_points:
   - Perth, Australia, 6069
   - <a href="mailto:cmclellen@gmail.com">cmclellen@gmail.com</a>
 
+other_notable_points:
+  - AGSVA Baseline Security Clearance
+
 links:
   - url: https://au.linkedin.com/in/cmclellen
     text: au.linkedin.com/in/cmclellen
@@ -98,7 +101,7 @@ workItems:
         characteristics:
         - Setup and configured Azure API Management, and built out Azure DevOps CI/CD pipelines to deploy APIs to it using APIOps.
         - Built Function Apps and Data Factory pipelines to process high volumes of GPS coordinate data streaming in via Azure Event Hub.
-        - Due to the accuracy of the data being life-critical, quality was imperative, so code-coverage and quality tests were a non-negotiable.
+        - Due to the accuracy of the data being life-critical, quality was imperative, so code-coverage and quality tests were non-negotiable.
 
       - name: Department of Defence
         type: Migration of on-premises applications to Azure
@@ -112,27 +115,27 @@ workItems:
         - Helped develop a Customer portal built using React fronting an Azure Function hosted API.
         - Drove the alignment with the key pillars of the Azure (WAF) Well-Architected Framework.
         - Delivered bi-weekly presentations to the customer, showcasing the latest features that had been implemented and in so doing, communicated tangible progress.
-        - Remediated issues identified during the PEN testing excercise.
+        - Remediated issues identified during the PEN testing exercise.
         - Developed the IaC scripts to provision resources to Azure, including provisioning and configuration of Azure Front Door and WAF (Web Application Firewall).
 
       - name: Adica
         type: Migration of SQL Server BI workloads to Azure
         characteristics:
-        - Built out the Solution Architecture Design document outline the current & target state architecture (with use of conceptual, logical and physical diagrams), RAID register, functional & non-functional requirements (with reference to the pillars of the WAF).
+        - Authored the Solution Architecture Design document outlining the current & target state architecture (with use of conceptual, logical and physical diagrams), RAID register, functional & non-functional requirements (with reference to the pillars of the Well-Architected Framework).
         - Devised plan to run old and new systems in parallel so that they could be switched over when given the green light.
         - Built out the IaC Terraform scripts to provision resources for the various environments to Azure.
-        - Configured Windows Auth with an Azure hosted SQL MI enabling authorized domain users to login using their AD accounts.
+        - Configured Windows Auth with an Azure hosted SQL MI enabling authorised domain users to login using their AD accounts.
 
       - name: Nido Early Schools
         type: Azure integration
         characteristics:
-        - Architected and implemented an integration solution using Azure Durable Functions to orchestrate data synchronization across systems triggered by webhooks.
+        - Architected and implemented an integration solution using Azure Durable Functions to orchestrate data synchronisation across systems triggered by webhooks.
         - Built out the Azure DevOps pipelines to provision resources via IaC and build, test and deploy the applications to Azure to the various environments.
 
       - name: Mind Australia
         type: Python development
         characteristics:
-        - Developed a Python based application that ingested files into a database incororating structured logging, dependency injection & unit tests.
+        - Developed a Python based application that ingested files into a database incorporating structured logging, dependency injection & unit tests.
 
   - company: Vanguard
     company_description: Global investment management company
@@ -142,7 +145,7 @@ workItems:
       - characteristics:
         - Migration of several of their middle tier applications from WebMethods to a C#.NET WebAPI solution.
         - Drove TDD and achieved ~90% code coverage.
-        - Developed numerous NodeJs AWS Lambda's'.
+        - Developed numerous NodeJs based AWS Lambdas to process messages published to SQS and SNS.
         - Developed several Angular SPAs that securely integrated with various APIs over HTTPS using JWT tokens with OAuth2.
 
   - company: Emprevo
@@ -154,7 +157,7 @@ workItems:
         - Refactoring existing test suite into a more maintainable and reliable test suite.
         - Helped develop and maintain core features of their Angular SPA fronting their SaaS service.
         - Developed various components that integrated with AWS S3, DynamoDB, RDS, and Elasticsearch.
-        - Instrumental in guided the team towards splitting large stories strategically into more sprint achievable sized stories that aided delivering the feature to production sooner.
+        - Instrumental in guiding the team towards splitting large stories strategically into more sprint achievable sized stories that aided delivering the feature to production sooner.
 
   - company: Thomson Reuters
     company_description: Multinational mass media and information firm
@@ -163,12 +166,12 @@ workItems:
     projects:
       - characteristics:
         - Helped port an existing desktop application to a web application which involved quite a bit of careful refactoring that relied on retrofitting tests to prevent regressions.
-        - Configured Jenkins pipelines to build, test and deploy an Angular SPA and ASP.NET API applications to various environmets.
+        - Configured Jenkins pipelines to build, test and deploy an Angular SPA and ASP.NET API applications to various environments.
         - Architected and helped implement a scalable solution to cater for long running processes (ingestion of large file, etc.) using WCF, WAS (Windows Process Activation Service) and MSMQ
         - Used SignalR to prove real-time feedback to users.
-        - Investigating and resolving performance bottlenecks, specifically around tweaking EntityFramework queries and optimizing database indexes.
+        - Investigating and resolving performance bottlenecks, specifically around tweaking EntityFramework queries and optimising database indexes.
         - Implemented server-side paging and 2nd-level caching with EntityFramework.
-        - Drove the seperating out of the Web API from the core web application that hosted the AngularJS SPA, allowing the API to be scaled out separately.
+        - Drove the separating out of the Web API from the core web application that hosted the AngularJS SPA, allowing the API to be scaled out separately.
 
   - company: Dariel Solutions
     company_description: Consultancy
@@ -177,15 +180,15 @@ workItems:
     projects:
       - name: Insurance
         characteristics:
-        - Development of bespoke web application for an insurance company using ASP.NET MVC and AngularJs.
+        - Development of a bespoke web application for an insurance company using ASP.NET MVC and AngularJs.
         - Helped develop a WCF service backend by MS SQL Server.
       - name: Life Healthcare
         characteristics:
-        - Designed and developed a new Group Product Management System that drew data from over 90+ hospitals and updates more than 100,000 products.
-        - Built the CI pipelines that built & tested our commits using MSBuild & TFS.
+        - Designed and help developed a product management system that drew data from over 90 hospitals, enabling the hospitals to maintain records of over 100,000 products.
+        - Created TFS CI pipelines using MSBuild that built & tested code on each commit.
       - name: AngloGold Ashanti
         characteristics:
-        - Developer lead on a specialist Crime Capturing Systems for a South African mining; a fully multilingual localized multi-tiered application developed with C#.NET v3.5 (Silverlight v4 along with RIA services) for the front-end and WCF, with MS SQL 2008 database.
+        - Developer lead on a specialist Crime Capturing Systems for a South African mining; a fully multilingual localised multi-tiered application developed with C#.NET v3.5 (Silverlight v4 along with RIA services) for the front-end and WCF, with MS SQL 2008 database.
         - Drove the test management strategy using tools such as MsTest, NUnit and RhinoMocks for unit & integration tests with TFS 2010 (Team Foundation Server) as our CI build + SCM server.
 
   - company: Microsoft SA
@@ -198,7 +201,7 @@ workItems:
         - Helped develop a replacement application for their existing legacy systems using Visual Studio 2008 (C#.NET 3.5), SQL Server 2008, Enterprise Library 4.1 (Unity & Logging Application Blocks specifically), MOSS 2007, WSS 3.0, and Team Foundation Server 2005, 2008.
       - name: Standard Bank
         characteristics:
-        - Build Master, creating and maintaining builds, ensuring latest code base is compiled, packaged, and deployed frequently for testing purposes, ensuring the quality of software being developed is of the highest standard,
+        - Build Master, creating and maintaining builds, ensuring latest code base is compiled, packaged, and deployed frequently for testing purposes, ensuring the quality of software being developed is of the highest standard.
 
   - company: Earlier experience
     company_description: Omitted for brevity
