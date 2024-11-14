@@ -9,7 +9,7 @@ categories: Azure Web CMS
 ### Background
 The church I regularly attend recently asked the parish community for assistance in creating a new website. Their previous site was difficult to update and lacked flexibility. Given my background, I offered to help them with creating a website that would serve their needs and allow them to self-serve and update the content themselves.
 
-Have a browse around the site <a href="https://stbrigidsmidland.com.au/" target="_blank">St Brigid’s & St Michael’s Churches</a>.
+Have a browse around the site <a href="https://www.stbrigidsmidland.com.au/" target="_blank">St Brigid’s & St Michael’s Churches</a>.
 
 ### Requirements
 <ins>Functional</ins>
@@ -24,7 +24,7 @@ Have a browse around the site <a href="https://stbrigidsmidland.com.au/" target=
 
 ### High-Level Design
 <div class="border rounded-2 p-2">
-    <img class="img-fluid" src="../../../../../assets/images/umbraco_church_diagram.png" />
+    <img class="img-fluid" src="../../../../../../assets/images/umbraco_church_diagram.png" />
 </div>
 
 ### The Journey
