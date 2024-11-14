@@ -220,22 +220,22 @@ qualifications:
     year: 2024-Present
     category: Architecture
   - name: Azure Solutions Architect Expert
-    year: 2022-Present
+    year: Dec 2022 - Dec 2025
     category: Azure
   - name: Cybersecurity Architect Expert
-    year: 2023-Present
+    year: Jul 2023 - Jul 2025
     category: Azure
   - name: Azure Cosmos DB Developer Specialty
-    year: 2024-Present
+    year: May 2024 - May 2025
     category: Azure
   - name: Azure AI Engineer Associate
-    year: 2023-Present
+    year: Dec 2023 - Dec 2025
     category: Azure
   - name: Azure Security Engineer Associate
-    year: 2023-Present
+    year: Jun 2023 - Jun 2025
     category: Azure
   - name: Azure Administrator Associate
-    year: 2022-Present
+    year: Sep 2022 - Sep 2025
     category: Azure
   - name: AWS Solution Architect Professional
     year: 2018-2023
