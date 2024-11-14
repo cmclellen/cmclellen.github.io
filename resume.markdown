@@ -226,7 +226,7 @@ qualifications:
     year: Jul 2023 - Jul 2025
     category: Azure
   - name: Azure Cosmos DB Developer Specialty
-    year: May 2024 - May 2025
+    year: May 2024 - May 2026
     category: Azure
   - name: Azure AI Engineer Associate
     year: Dec 2023 - Dec 2025
