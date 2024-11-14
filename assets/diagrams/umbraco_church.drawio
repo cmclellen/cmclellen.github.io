@@ -72,7 +72,7 @@
                 <mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="60" target="63" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;labelBackgroundColor=none;" parent="1" vertex="1">
+                <mxCell id="63" value="Key Vault" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="450" y="460" width="68" height="68" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="Managed&lt;br&gt;Identity" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Managed_Identities.svg;labelBackgroundColor=none;" parent="1" vertex="1">
