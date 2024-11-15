@@ -76,8 +76,8 @@ summary: |
 
 workItems:
   - company: Insight
-    company_description: Cloud Apps and Integrations - Consultancy
-    duration: Mar 2024 - Present
+    company_description: Cloud Apps and Integrations-Consultancy
+    duration: Mar'24-Present
     role: Architect
     projects:
       - name: ICWA
@@ -92,8 +92,8 @@ workItems:
         - Documented the architecture incorporating various diagrams created with tools like Structurizr (C4) and PlantUML/drawio (deployment, sequence, etc.).
 
   - company: Eighty20 Solutions
-    company_description: Azure Cloud - Consultancy
-    duration: May 2022 - Mar 2024
+    company_description: Azure Cloud-Consultancy
+    duration: May'22-Mar'24
     role: Senior Consultant
     projects:
       - name: DEFS (Department of Fire and Emergency Services)
@@ -139,7 +139,7 @@ workItems:
 
   - company: Vanguard
     company_description: Global investment management company
-    duration: Apr 2016 - Apr 2017; Oct 2019 – May 2022
+    duration: Apr'16-Apr'17;Oct'19–May'22
     role: Senior Developer
     projects:
       - characteristics:
@@ -150,7 +150,7 @@ workItems:
 
   - company: Emprevo
     company_description: SaaS solution for managing employee shift work
-    duration: May 2017 - Jan 2018
+    duration: May'17-Jan'18
     role: Senior Developer
     projects:
       - characteristics:
@@ -161,7 +161,7 @@ workItems:
 
   - company: Thomson Reuters
     company_description: Multinational mass media and information firm
-    duration: Oct 2014 - Apr 2016
+    duration: Oct'14-Apr'16
     role: Senior Developer
     projects:
       - characteristics:
@@ -175,7 +175,7 @@ workItems:
 
   - company: Dariel Solutions
     company_description: Consultancy
-    duration: Mar 2010 - Sep 2014
+    duration: Mar'10-Sep'14
     role: Senior Developer
     projects:
       - name: Insurance
@@ -193,7 +193,7 @@ workItems:
 
   - company: Microsoft SA
     company_description: Professional services
-    duration: Mar 2008 - Mar 2010
+    duration: Mar'08-Mar'10
     role: Consultant
     projects:
       - name: Nedbank
@@ -205,7 +205,7 @@ workItems:
 
   - company: Earlier experience
     company_description: Omitted for brevity
-    duration: Jan 2000 - Mar 2008
+    duration: Jan'00-Mar'08
     role: Developer
     projects:
       - characteristics:

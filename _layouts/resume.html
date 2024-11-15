@@ -4,21 +4,21 @@ layout: default
 <article class="container my-2 resume">
   <div class="row gy-2">
     <div>
-      <div class="text-primary fs-4 text-lg-center fw-bold">{{page.full_name}}</div>
-      <div class="text-lg-center text-primary fw-bold">{{page.current_role}}</div>
-      <div class="d-lg-flex justify-content-lg-center">
+      <div class="text-primary fs-4 text-md-center fw-bold">{{page.full_name}}</div>
+      <div class="text-md-center text-primary fw-bold">{{page.current_role}}</div>
+      <div class="d-md-flex justify-content-md-center">
         {%- for notable_point in page.notable_points -%}
-          <div>{{ notable_point }}</div><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
+          <div>{{ notable_point }}</div><div class="mx-1 d-none d-md-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
         {% endfor %}
       </div>
-      <div class="d-lg-flex justify-content-lg-center">
+      <div class="d-md-flex justify-content-md-center">
         {%- for notable_point in page.other_notable_points -%}
-          <div>{{ notable_point }}</div><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
+          <div>{{ notable_point }}</div><div class="mx-1 d-none d-md-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
         {% endfor %}
       </div>
-      <div class="d-lg-flex justify-content-lg-center">
+      <div class="d-md-flex justify-content-md-center">
         {%- for link in page.links -%}
-        <a href="{{ link.url }}" target="_blank">{{ link.text }}</a><div class="mx-1 d-none d-lg-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
+        <a href="{{ link.url }}" target="_blank">{{ link.text }}</a><div class="mx-1 d-none d-md-block">{%- if forloop.last == false -%}&bullet;{%- endif -%}</div>
         {% endfor %}
       </div>
     </div>
@@ -33,7 +33,7 @@ layout: default
       <ol class="list-group list-group-flush">
       {%- for workItem in page.workItems -%}
         <li class="list-group-item">
-          <div class="d-lg-flex">
+          <div class="d-md-flex">
             <div class="flex-grow-1 d-lg-flex">
               <div class="text-primary fw-bold">{{workItem.company}}</div>
               <div class="ms-lg-2 fs-6 font-monospace">{{workItem.company_description}}</div>
