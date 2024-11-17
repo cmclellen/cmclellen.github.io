@@ -216,7 +216,7 @@ qualifications:
   - name: GitHub Copilot
     year: Nov 2024-Present
     category: Software Development
-  - name: GitHub Foundation
+  - name: GitHub Foundations
     year: Nov 2024-Present
     category: Software Development
   - name: TOGAF 10 Foundation
