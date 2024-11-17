@@ -214,10 +214,13 @@ workItems:
 
 qualifications:
   - name: GitHub Copilot
-    year: 2024-Present
+    year: Nov 2024-Present
+    category: Software Development
+  - name: GitHub Foundation
+    year: Nov 2024-Present
     category: Software Development
   - name: TOGAF 10 Foundation
-    year: 2024-Present
+    year: Oct 2024-Present
     category: Architecture
   - name: Azure Solutions Architect Expert
     year: Dec 2022 - Dec 2025
