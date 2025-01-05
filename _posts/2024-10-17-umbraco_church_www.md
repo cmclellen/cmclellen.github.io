@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Azure hosted Umbraco website"
-subtitle: Developing an Azure hosted Umbraco CMS website for the church I attend.
+subtitle: Developed an Azure hosted Umbraco CMS website.
 date:   2024-10-17 05:00:44 +0800
 image: umbracochurch.jpg
 categories: Azure Web CMS
