@@ -72,7 +72,7 @@ links:
     text: cmclellen.github.io
 
 summary: |
-    Passionate full-stack Software Engineer and Solution Architect with 25+ years of experience, leading the design and development of scalable, secure, and user-focused applications. Skilled in Agile methodologies, cloud computing, microservice & event-driven architectures, DevOps and writing SOLID TDD code, while often mentoring and guiding more junior developers.
+    Passionate full-stack Software Engineer and Architect with over 25 years of experience, leading the design and development of scalable, secure, and user-focused applications. Skilled in Agile methodologies, cloud computing, microservice & event-driven architectures, DevOps and writing SOLID TDD code, while I enjoy mentoring and guiding other developers. Apart from the work experience detailed below, I also offer my time maintaining the https://www.stbrigidsmidland.com.au/ website I built (described in more detail at https://cmclellen.github.io).
 
 workItems:
   - company: Insight
@@ -99,7 +99,7 @@ workItems:
       - name: DEFS (Department of Fire and Emergency Services)
         type: Tracking GPS coordinates of personal & vehicles
         characteristics:
-        - Setup and configured Azure API Management, and built out Azure DevOps CI/CD pipelines to deploy APIs to it using APIOps.
+        - Setup and configured Azure API Management via APIOps. Built out the Azure DevOps CI/CD pipelines to deploy APIs, policies, etc. to APIM.
         - Built Function Apps and Data Factory pipelines to process high volumes of GPS coordinate data streaming in via Azure Event Hub.
         - Due to the accuracy of the data being life-critical, quality was imperative, so code-coverage and quality tests were non-negotiable.
 
