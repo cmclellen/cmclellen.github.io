@@ -83,13 +83,13 @@ workItems:
       - name: ICWA
         type: Azure Integration
         characteristics:
-        - Led and mentored the development team in successfully delivering an Azure Integration Services (AIS) solution to Azure.
-        - Drove the adoption of TDD and visualised code coverage stats via the CI build dashboard.
-        - Built out CI/CD pipelines using GitHub Action, and configuring the security thereof with environment appropriate approval gates.
+        - Led and mentored the development team in successfully delivering an Azure Integration Services (AIS) solution, involving the development of both the backend (Azure Functions and Logic Apps) and frontend (Angular SPA). This included developing all infrastructure-as-code (IaC) Bicep scripts to provision the solution within the designated application landing zone.
+        - Drove the adoption of TDD and configuring the reporting on code quality metrics like code coverage stats via the build dashboard.
+        - Developed CI/CD pipelines with GitHub Actions and implemented security measures, including environment-specific approval gates.
         - Defined the branching strategy that was followed and configured branch related quality gates.
-        - Guided the team with DDD (Domain-Driven Design) and the event-driven architecture that was implemented.
-        - Helped develop an Angular SPA that fronted the APIs deployed as part of the solution.
-        - Documented the architecture incorporating various diagrams created with tools like Structurizr (C4) and PlantUML/drawio (deployment, sequence, etc.).
+        - Guided the team with DDD (Domain-Driven Design) and the event-driven architecture that was implemented.        
+        - Backfilled architecture documentation for various systems—both new and legacy applications—using tools such as Confluence and diagram-as-code tools like Structurizr (C4) and PlantUML (deployment, sequence diagrams, etc.).
+        - Authored and collaborated on Architecture Decision Records (ADRs) to document key architectural choices and rationale.
 
   - company: Eighty20 Solutions
     company_description: Azure Cloud-Consultancy
