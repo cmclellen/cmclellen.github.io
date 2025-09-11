@@ -147,6 +147,14 @@ workItems:
           - Drove TDD and achieved ~90% code coverage.
           - Developed numerous NodeJs based AWS Lambdas to process messages published to SQS and SNS.
           - Developed several Angular SPAs that securely integrated with various APIs over HTTPS using JWT tokens with OAuth2.
+       
+  - company: Rhipe
+    company_description: Distributor of subscription-based cloud licenses for service providers
+    duration: Jan'18-Oct'19
+    role: Senior Developer
+    projects:
+      - characteristics:
+          - Assist in the development, maintenance, and support of their subscription management portal built using C# and Angular.
 
   - company: Emprevo
     company_description: SaaS solution for managing employee shift work
@@ -258,3 +266,4 @@ qualifications:
   - name: <small><i>Older Microsoft certifications omitted for brevity</i></small>
     category: Software Development
 ---
+
