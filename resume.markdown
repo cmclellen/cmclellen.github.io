@@ -96,7 +96,7 @@ workItems:
     duration: May'22-Mar'24
     role: Senior Consultant
     projects:
-      - name: DEFS (Department of Fire and Emergency Services)
+      - name: DFES (Department of Fire and Emergency Services)
         type: Tracking GPS coordinates of people (rangers) & vehicles
         characteristics:
           - Setup and configured Azure API Management via APIOps. Built out the Azure DevOps CI/CD pipelines to deploy APIs, policies, etc. to APIM.
@@ -266,4 +266,5 @@ qualifications:
   - name: <small><i>Older Microsoft certifications omitted for brevity</i></small>
     category: Software Development
 ---
+
 
